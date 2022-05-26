@@ -20,7 +20,7 @@ void bubblesort(int a[100], int n)
     }
     auto endt=chrono::steady_clock::now();
     auto time=endt-start;
-    cout<<endl<<"Time taken for sorting is "<<chrono::duration<double,milli>(time).count()<<" ms \n";
+    cout<<endl<<"Time taken for sorting is "<<chrono::duration<double,milli>(time).count()<<" ms \n"<<endl;
 }
 int main()
 {
